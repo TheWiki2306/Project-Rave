@@ -1,0 +1,7 @@
+.secondSide__container {
+    position: absolute;
+    right: 0;
+    background-color: black;
+    width: 18rem;
+    height: 132vh;
+}

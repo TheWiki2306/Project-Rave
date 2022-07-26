@@ -1,0 +1,103 @@
+.container.live__container {
+    width: 40%;
+    position: absolute;
+    left: 35%;
+    top: 20rem;
+}
+
+.live__container .date {
+    position: absolute;
+    top: 0.7rem;
+    margin-left: 0.7rem;
+    font-size: 0.5rem;
+    background: rgba(27, 27, 27, 0.792);
+    padding: 0.1rem 0.3rem;
+    border-radius: 0.3rem;
+}
+
+.live__container-flex {
+    display: flex;
+
+}
+
+.live__container-flex img {
+    width: 12rem;
+    height: 8rem;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.live__container-flex .container-wrap {
+    background: orange;
+    padding: 0 0 0 1rem;
+    width: 12rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 1rem 1rem 0rem;
+
+}
+
+.live__container-flex .container-wrap h4 {
+    margin-top: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+}
+
+.container-wrap small {
+    margin-top: -0.5rem;
+    margin-left: -0.1rem;
+    letter-spacing: 0.3rem;
+}
+
+.container-wrap p {
+    font-size: 0.6em;
+    margin-top: -0.3rem;
+    margin-left: -0.1rem;
+    color: var(--color-grey);
+}
+
+
+.container__over {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    position: absolute;
+    left: 13rem;
+    top: 6rem;
+}
+
+.over__images {
+    display: flex;
+    align-items: center;
+}
+
+.over__images .img1 {
+    width: 1.2rem;
+    border-radius: 2rem;
+    clip-path: circle();
+}
+
+.over__images .img2 {
+    width: 2rem;
+    clip-path: circle();
+    position: absolute;
+    margin-left: 0.2rem;
+}
+
+.container__over small {
+    font-size: 0.6em;
+    color: var(--color-grey);
+}
+
+.greater__than {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    position: absolute;
+    top: 6rem;
+    right: 10rem;
+    background: rgba(27, 27, 27, 0.792);
+    color: #fff;
+    clip-path: circle();
+    padding: 0.5rem;
+    z-index: 2;
+}

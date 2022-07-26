@@ -1,0 +1,331 @@
+.sidebar__container {
+    background: black;
+    position: absolute;
+    left: 0;
+    top: 1;
+    width: 18rem;
+    height: 132vh;
+    padding-top: 3rem;
+    padding-left: 3rem;
+}
+
+.box__container {}
+
+.box__container img {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 0.7rem;
+}
+
+.box__container small {
+    font-size: 0.4em;
+    position: absolute;
+    left: 3.3rem;
+    top: 3.9rem;
+    background: black;
+    padding: 0.2em;
+    border-radius: 0.5em;
+}
+
+.box__container a {
+    background: white;
+    color: red;
+    padding-top: 0.1rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    padding-bottom: 0;
+    border-radius: 0.5rem;
+    transition: var(--transition);
+    position: relative;
+    right: 6.7rem;
+    bottom: 0.6rem;
+}
+
+.box__container a .youtube_icon {
+    font-size: 0.8em;
+}
+
+.box__container a:hover {
+    background: rgb(192, 191, 191);
+}
+
+.box__container p {
+    font-size: 0.4em;
+    font-weight: 500;
+    color: black;
+    background: orange;
+    padding: 0 0.2rem;
+    width: 1.8rem;
+    border-radius: 0.3rem;
+    position: absolute;
+    left: 7.9rem;
+    top: 8.8rem;
+}
+
+.sidebar-sub {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+.over__images {
+    display: flex;
+    align-items: center;
+}
+
+.over__images .img1 {
+    width: 1.2rem;
+    border-radius: 2rem;
+    clip-path: circle();
+}
+
+.over__images .img2 {
+    width: 2rem;
+    clip-path: circle();
+    position: absolute;
+    margin-left: 0.2rem;
+}
+
+.sidebar-sub small {
+    font-size: 0.6em;
+    color: var(--color-grey);
+}
+
+.sidebar__people {
+    display: flex;
+    gap: 2rem;
+    margin-top: 3.5rem;
+
+}
+
+.date .item1 {
+    font-size: 0.6em;
+    color: var(--color-grey);
+    border: 1px var(--color-grey) solid;
+    border-radius: 0.5rem;
+    width: 4.5rem;
+    padding: 0.1rem 0.3rem;
+}
+
+
+.date .item2 {
+    margin-top: 0.5rem;
+    font-size: 0.6em;
+    border: 1px var(--color-grey) solid;
+    border-radius: 0.5rem;
+    width: 4.5rem;
+    padding: 0.1rem 0.3rem;
+}
+
+
+.date .item3 {
+    margin-top: 0.5rem;
+    font-size: 0.6em;
+    border: 1px #4db5ff solid;
+    border-radius: 0.5rem;
+    background: #2c2c6c;
+    width: 4.5rem;
+    padding: 0.1rem 0.3rem;
+}
+
+
+.date .item4 {
+    margin-top: 0.5rem;
+    font-size: 0.6em;
+    border: 1px green solid;
+    border-radius: 0.5rem;
+    background: rgb(24, 206, 24);
+    width: 4.5rem;
+    padding: 0.1rem 0.3rem;
+}
+
+
+.date .item5 {
+    margin-top: 0.5rem;
+    font-size: 0.5em;
+    border: 1px red solid;
+    border-radius: 0.3rem;
+    background: rgb(250, 48, 48);
+    width: 3rem;
+    padding: 0 0.5rem;
+}
+
+
+.date .item6 {
+    margin-top: 0.5rem;
+    font-size: 0.5em;
+    border: 1px orange solid;
+    border-radius: 0.3rem;
+    background: orange;
+    color: black;
+    width: 3rem;
+    padding: 0 0.5rem;
+
+}
+
+.text__images {
+    display: flex;
+    align-items: center;
+
+}
+
+.people__going .over__images .img5 {
+    width: 1.6rem;
+    border-radius: 2rem;
+    clip-path: circle();
+    position: relative;
+    left: -2.4rem;
+}
+
+.people__going .over__images .img4 {
+    width: 1.7rem;
+    border-radius: 2rem;
+    clip-path: circle();
+    position: relative;
+    left: -1.5rem;
+}
+
+.people__going .over__images .img3 {
+    width: 2.4rem;
+    border-radius: 2rem;
+    clip-path: circle();
+
+}
+
+.over__text {
+    position: absolute;
+    left: 13.2rem;
+    padding-right: 10rem;
+    top: 16rem;
+}
+
+.over__text h5 {
+    font-size: 1em;
+    position: absolute;
+    bottom: -1.5rem;
+}
+
+.over__text small {
+    font-size: 0.6em;
+    color: var(--color-grey);
+    position: absolute;
+    top: 1.2rem;
+}
+
+.people__going-account img {
+    width: 1.5rem;
+    clip-path: circle();
+    position: relative;
+    top: 1rem;
+    margin-left: 0.3rem;
+}
+
+.people__going-account p {
+    margin-top: -1rem;
+    font-size: 0.6em;
+    letter-spacing: 0.05rem;
+    background: rgb(60, 60, 60);
+    padding: 0.5rem 2rem;
+    border-radius: 0.3rem;
+}
+
+.going {
+    font-size: 0.7em;
+    margin-top: 1.2rem;
+    background: #2c2c6c;
+    border: 1px #4db5ff solid;
+    border-radius: 0.3rem;
+    padding: 0.4rem 0.7rem;
+}
+
+.dates__list {
+    margin-top: 3rem;
+    margin-left: 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.date__list1 {
+    font-size: 0.6em;
+}
+
+.date__list2 {
+    font-size: 0.6em;
+    background: #2c2c6c;
+    border: 1px #4db5ff solid;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.2rem;
+}
+
+.date__list3 {
+    font-size: 0.6em;
+    background: rgb(32, 32, 32);
+    border: 1px black solid;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.2rem;
+}
+
+.date__list4 {
+    font-size: 0.6em;
+    background: rgb(32, 32, 32);
+    border: 1px black solid;
+    padding: 0.3rem 0.5rem;
+    padding-right: 0.2rem;
+    border-radius: 0.2rem;
+}
+
+.date__list4 .Dot {
+    position: relative;
+    top: 0.6rem;
+    right: 0.45rem;
+    font-size: 0.6em;
+    color: #4db5ff;
+}
+
+.already__booked {
+    margin-top: 3rem;
+}
+
+.already__booked img {
+    width: 14rem;
+    height: 12rem;
+    border-radius: 1rem;
+}
+
+.already__booked h4 {
+    position: relative;
+    bottom: 6rem;
+    color: rgb(37, 35, 35);
+    left: 0.5rem;
+    letter-spacing: 0.5rem;
+}
+
+.already__booked small {
+    position: relative;
+    bottom: 7rem;
+    left: 0.5rem;
+    color: rgb(104, 103, 103);
+    font-size: 0.6em;
+}
+
+.already__booked .dot {
+    font-size: 0.3rem;
+}
+
+.already__booked-date .calender {
+    color: rgb(37, 35, 35);
+    position: relative;
+    bottom: 7rem;
+    left: 0.5rem;
+    color: rgb(37, 35, 35);
+}
+
+.already__booked-date small {
+    font-size: 0.7rem;
+    position: relative;
+    bottom: 7.15rem;
+    left: 0.8rem;
+    color: rgb(37, 35, 35);
+}
